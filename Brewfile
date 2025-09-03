@@ -1,11 +1,18 @@
-# Brews
+tap "kegworks-app/kegworks"
+
+# CLI Tools
 brew "azure-cli"
 brew "gh"
-brew "neovim"
-brew "pnpm"
-brew "zola"
 brew "mas"
+brew "neovim"
+brew "node"
+brew "nvm"
+brew "pnpm"
+brew "python@3.12"
 brew "vercel-cli"
+brew "zola"
+
+# Applications
 cask "arc"
 cask "cleanshot"
 cask "cursor"
@@ -20,11 +27,8 @@ cask "screen-studio"
 cask "slack"
 cask "spotify"
 cask "warp"
-cask "outlook"
-cask "m"
 
-
-# Mac App Store Apps
+# Mac App Store
 mas "iA Writer", id: 775737590
 
 # VS Code Extensions
