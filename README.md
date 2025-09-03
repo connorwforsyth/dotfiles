@@ -2,22 +2,30 @@
 
 My personal dotfiles and system configuration.
 
-## Quick Setup
+## Quick Setup (New Machine)
 
+**One-command setup:**
 ```bash
-# Install Homebrew packages (apps, CLI tools, VS Code extensions)
-brew bundle install
+# Clone and run full setup
+git clone https://github.com/connorwforsyth/dotfiles ~/.files
+cd ~/.files && ./install.sh
+```
 
-# Install npm global packages
+**Manual setup:**
+```bash
+# 1. Clone the repo
+git clone https://github.com/connorwforsyth/dotfiles ~/.files
+cd ~/.files
+
+# 2. Install Homebrew (if needed)
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# 3. Install packages
+brew bundle install
 ./install-npm-globals.sh
 
-# Create symlinks (if setting up on a new machine)
-ln -s ~/.files/.zshrc ~/.zshrc
-ln -s ~/.files/.gitconfig ~/.gitconfig
-ln -s ~/.files/.yarnrc ~/.yarnrc
-ln -s ~/.files/.nuxtrc ~/.nuxtrc
-ln -s ~/.files/.prismic ~/.prismic
-ln -s ~/.files/Brewfile ~/Brewfile
+# 4. Create symlinks
+./create-symlinks.sh
 ```
 
 ## What's included
