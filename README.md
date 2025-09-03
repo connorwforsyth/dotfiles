@@ -31,6 +31,8 @@ brew bundle install
 ## What's included
 
 - **Brewfile**: Homebrew packages, casks, and VS Code extensions
+  - Core development tools and apps
+  - Optional Microsoft apps section (Teams, Outlook, Office)
 - **Shell config**: `.zshrc` for zsh configuration
 - **Git config**: `.gitconfig` for git settings
 - **Package managers**: `.yarnrc`, `.nuxtrc` configs

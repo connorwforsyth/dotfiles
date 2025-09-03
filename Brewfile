@@ -31,6 +31,12 @@ cask "warp"
 # Mac App Store
 mas "iA Writer", id: 775737590
 
+# Microsoft Apps (uncomment as needed)
+# cask "microsoft-teams"           # Microsoft Teams
+# cask "microsoft-outlook"         # Outlook email client
+# cask "microsoft-powerpoint"      # PowerPoint
+
+
 # VS Code Extensions
 vscode "abusaidm.html-snippets"
 vscode "achaq.vercel-theme"
