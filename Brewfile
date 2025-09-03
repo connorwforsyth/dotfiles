@@ -1,4 +1,4 @@
-tap "kegworks-app/kegworks"
+# Brews
 brew "azure-cli"
 brew "gh"
 brew "neovim"
@@ -20,7 +20,14 @@ cask "screen-studio"
 cask "slack"
 cask "spotify"
 cask "warp"
+cask "outlook"
+cask "m"
+
+
+# Mac App Store Apps
 mas "iA Writer", id: 775737590
+
+# VS Code Extensions
 vscode "abusaidm.html-snippets"
 vscode "achaq.vercel-theme"
 vscode "akamud.vscode-theme-onedark"
